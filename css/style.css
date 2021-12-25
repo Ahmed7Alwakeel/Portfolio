@@ -1,0 +1,190 @@
+
+body{
+    background-color: grey;
+}
+
+.w{
+    width: 80px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+}
+.w h1{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+img{
+    margin: 5px 5px 0 5px;
+}
+
+i{
+   font-size: 30px;
+   margin: 200px 0 0 20px;
+   cursor: pointer;
+   color: rgb(180, 172, 172);
+   transition: all 2s;
+}
+
+.itemmain{
+    transition: all 1s;
+}
+.itemmain:hover .item{
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+
+}
+.item{
+    transition: all 1s;
+}
+.col-lg-3{
+    margin: 0;
+    padding: 0;
+    height: 340px;
+}
+h5{
+    color: grey;
+    font-size: 15px;
+    cursor: pointer;
+}
+h3{
+    font-size: 30px;
+    cursor: pointer;
+}
+.s{
+    margin-left: -200px;
+    width: 200px;
+    height: 100vh;
+    background-color:white;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+    transition: 1s all;
+}
+.s h1{
+   text-align: center;
+   margin-top: 20px;
+}
+
+ul{
+
+    list-style: none;
+    margin-left: 23px;
+    margin-top: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+
+
+}
+li{
+    margin-top: 30px;
+}
+a:hover{
+    color: rgb(255, 0, 242);
+}
+.slide{
+    margin-left: 80px;
+    width: 200px;
+    height: 100vh;
+    background-color:white;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+    transition: 1s all;
+}
+
+.slide h1{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+ }
+html{
+    scroll-behavior: smooth;
+}
+.fa-times{
+     transition: all 2s;
+
+ }
+ .fa-bars{
+    transition: all 2s;
+
+}
+::-webkit-scrollbar{
+    background-color:white;
+    width: 10px;
+   
+}
+
+::-webkit-scrollbar-thumb{
+   
+    background-color: grey;  
+    border-radius: 20px;
+    
+}
+
+@media(max-width:575px){
+    .w{
+       width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    overflow: hidden;
+    z-index: 2;
+    }
+    
+    .s{
+        margin: -200px 0 0 -200px;
+        width: 400px;
+        height: 200px;
+        background-color:white;
+        position: fixed;
+        overflow: hidden;
+        z-index: 2;
+        transition: 1s all;
+    }
+    .slide{
+        margin-top: 80px;
+        width: 400px;
+        height: 700px;
+        background-color:white;
+        position: fixed;
+        overflow: hidden;
+        z-index: 2;
+        transition: 1s all;
+    }
+    ul{
+
+        list-style: none;
+        margin-left: 180px;
+        margin-top: 30px;
+    
+    }
+    .s h1{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 80px;
+     }
+     i{
+        font-size: 30px;
+        cursor: pointer;
+        color: rgb(180, 172, 172);
+        transition: all 2s;
+        position: fixed;
+        bottom: 540px;
+        left: 440px;
+     }
+    
+}
+
